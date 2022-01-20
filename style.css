@@ -1,42 +1,62 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+/* navbar */
+
+/* jumbotron seection */
 .jumbotron {
   padding-top: 6rem;
   background-color: #80adf5;
 }
 
+/* about section */
+.container2 {
+  padding-top: 6rem;
+}
+
+/* project section */
 #projects {
   background-color: #80adf5;
+  padding-top: 6rem;
 }
 
-#wa{
+/* contact section */
+#wa {
   color: white;
-  background-color: #25D366;
+  background-color: #25d366;
   border-radius: 20px 20px 20px 20px;
-  padding: 2px 10px 5px 10px ;
+  padding: 2px 10px 5px 10px;
 }
 
-#fb{
-   color: white;
-  background-color: #4267B2;
+#fb {
+  color: white;
+  background-color: #4267b2;
   border-radius: 20px 20px 20px 20px;
-  padding: 2px 10px 5px 10px ;
+  padding: 2px 10px 5px 10px;
 }
 
-#in{
-   color:#2867B2;
+#in {
+  color: #2867b2;
   background-color: white;
 
-  padding: 0px 10px 5px 10px ;
+  padding: 0px 10px 5px 10px;
 }
 
-.text-LinkedIn{
-  color: #2867B2;
+.text-LinkedIn {
+  color: #2867b2;
 }
-#twitt{
-  color: #1DA1F2;
+#twitt {
+  color: #1da1f2;
   background-color: white;
-  padding: 0px 10px 5px 10px ;
+  padding: 0px 10px 5px 10px;
 }
-.text-twitt{
-  color: #2867B2;
+.text-twitt {
+  color: #2867b2;
   background-color: white;
+}
+
+/* contact hover  */
+
+#sosmed :hover {
+  transform: translateY(8px);
 }

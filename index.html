@@ -7,12 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-
     <!-- Icon bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
 
     <!-- AOS Animation -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -21,8 +20,10 @@
   </head>
   <body id="home">
     <!-- Navbar    -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">  
+        <a class="navbar-brand" href="#">
+            <img class="rounded-circle" src="img/logo.png" width="30" height="24" />
+        </a>
         <a class="navbar-brand" href="#">Azhar Maolana</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -64,7 +65,7 @@
 
     <!-- about -->
     <section id="about">
-      <div class="container">
+      <div class="container2">
         <div class="row text-center mb-3">
           <div class="col">
             <h2 data-aos="fade-down" data-aos-duration="3000">About Me</h2>
@@ -73,13 +74,14 @@
         <div class="row justify-content-center fs-2 text-center">
           <div class="col-md-4 mb-3">
             <p class="fs-4" data-aos="fade-right" data-aos-duration="3000">
-              I was born in 99, in Garut, West Java, Indonesia. I graduated 2017 from SMA Negeri 3 Garut and continued to study at Piksi Ganesha Polytechnic Bandung and majored in D3 Information Management, but I graduated one year late because I had things to do.
+              I was born in 99, in Garut, West Java, Indonesia. I graduated 2017 from SMA Negeri 3 Garut and continued to study at Piksi Ganesha Polytechnic Bandung and majored in D3 Information Management, but I graduated one year late
+              because I had things to do.
             </p>
           </div>
           <div class="col-md-4 mb-3">
-            <p class=" fs-4" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="200">
-              I'm a junior web developer, I've studied it for about a year. and I learned several languages ​​related to web developers such as Html, CSS, bootstrap, PHP, and MySQL.
-              I am an honest, disciplined, and responsible person. I can also learn new things very well. below are examples of some of my projects that have not been released because they are only prototypes.
+            <p class="fs-4" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="200">
+              I'm a junior web developer, I've studied it for about a year. and I learned several languages ​​related to web developers such as Html, CSS, bootstrap, PHP, and MySQL. I am an honest, disciplined, and responsible person. I can
+              also learn new things very well. below are examples of some of my projects that have not been released because they are only prototypes.
             </p>
           </div>
         </div>
@@ -96,7 +98,7 @@
 
     <!-- Proojects -->
     <section id="projects">
-      <div class="container">
+      <div class="container3">
         <div class="row text-center mb-3">
           <div class="col">
             <h2 data-aos="flip-up" data-aos-duration="1000">My Projects</h2>
@@ -126,49 +128,49 @@
     <!-- Akhir Projects -->
 
     <!-- contact  -->
-    <section id="contact">
-      <div class="container">
+    <section id="contact" class="contact-section">
+      <div class="container4">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>Contact Me</h2>
+            <p>Just lets take a break and drink a coffe</p>
           </div>
         </div>
         <!-- Sosmed -->
-        <div class="row justify-content-center text-center md-2">
-          <div  class="col-md-2 mb-3">
-            <i id="wa" class="bi bi-whatsapp" ><a href="https://wa.me/message/KSZEJCBRCPWFD1" style="text-decoration: none" class="text-light fst-normal" target="_blank">WhatsApp</a></i>
-          </div>
-          <div  class="col-md-2 mb-3">
-            <i id="fb" class="bi bi-facebook"><a href="https://web.facebook.com/sevenzhar" style="text-decoration: none" class="text-light fst-normal" target="_blank">Facebook</a></i>
-          </div>
-          
+        <div id="sosmed" class="row justify-content-center text-center md-2">
           <div class="col-md-2 mb-3">
-            <i id="in" class="bi bi-linkedin "><a  style="text-decoration: none " href="https://www.linkedin.com/in/azhar-maolana-b37ab221a/" class="text-LinkedIn fst-normal" target="_blank">LinkedIn</a></i>
+            <a href="https://wa.me/message/KSZEJCBRCPWFD1" style="text-decoration: none" class="text-light fst-normal" target="_blank" id="wa"><i class="bi bi-whatsapp"></i>WhatsApp</a>
           </div>
           <div class="col-md-2 mb-3">
-            <i class="bi bi-github text-dark"><a href="https://github.com/zhrmln" style="text-decoration: none" class="text-dark fst-normal" target="_blank">GitHub</a></i>
+            <a href="https://web.facebook.com/sevenzhar" style="text-decoration: none" class="text-light fst-normal" target="_blank" id="fb"><i class="bi bi-facebook"></i>Facebook</a>
+          </div>
+
+          <div class="col-md-2 mb-3">
+            <a style="text-decoration: none" href="https://www.linkedin.com/in/azhar-maolana-b37ab221a/" class="text-LinkedIn fst-normal" target="_blank" id="in"><i class="bi bi-linkedin"></i>LinkedIn</a>
           </div>
           <div class="col-md-2 mb-3">
-            <i id="twitt"class="bi bi-twitter"><a href="https://twitter.com/azhrmaolana" style="text-decoration: none" class="text-twitt fst-normal" target="_blank">Twitter</a></i>
+            <a href="https://github.com/zhrmln" style="text-decoration: none" class="text-dark fst-normal" target="_blank"><i class="bi bi-github text-dark"></i>GitHub</a>
           </div>
-          <br>
+          <div class="col-md-2 mb-3">
+            <a href="https://twitter.com/azhrmaolana" style="text-decoration: none" class="text-twitt fst-normal" target="_blank" id="twitt"><i class="bi bi-twitter"></i>Twitter</a>
+          </div>
           <!-- Email akoeh -->
-        </div>
-        <div class="row justify-content-center text-center md-">
           <div class="col-md-2 mb-3">
-            <i class="bi bi-envelope"><a href="mailto: azharmaolana007@gmail.com" style="text-decoration: none" class="text-dark fst-normal" target="_blank"> azharmaolana007@gmail.com</a></i>
+            <a href="mailto: azharmaolana007@gmail.com" style="text-decoration: none" class="text-dark fst-normal" target="_blank"><i class="bi bi-envelope"></i>Send a mail</a>
           </div>
         </div>
-        <!-- Akhir sosmed -->
-      
+      </div>
+      <!-- Akhir sosmed -->
     </section>
     <!-- AKHIR Contact -->
 
     <!-- Footer -->
-    <footer class="bg-primary text text-white justify-content-center text-center pb-3 ">
+    <footer class="bg-primary text text-white justify-content-center text-center pb-3">
       <p>Created By Azhar maolana | 2022</p>
     </footer>
     <!-- Akhir Footer -->
+
+    <!-- javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@2.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
