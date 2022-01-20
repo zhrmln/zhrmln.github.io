@@ -1,6 +1,6 @@
 body {
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 24px;
 }
 /* navbar */
 
@@ -57,7 +57,11 @@ body {
 }
 
 /* contact hover  */
-
+#sosmed {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  display: flex;
+}
 #sosmed :hover {
   transform: translateY(8px);
 }
