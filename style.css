@@ -1,3 +1,4 @@
+
 body {
   font-family: "Times New Roman", Times, serif;
   font-size: 24px;
@@ -22,6 +23,17 @@ body {
 }
 
 /* contact section */
+.contact-section{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+ 
+}
+
+
 #wa {
   color: white;
   background-color: #25d366;
@@ -61,6 +73,8 @@ body {
   padding-right: 2rem;
   padding-left: 2rem;
   display: flex;
+  grid-template-areas:repeat(auto-fit,minmax(320px, 1fr) ) ;
+   
 }
 
 #sosmed :hover {
